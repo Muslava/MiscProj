@@ -1,0 +1,1 @@
+C:\Users\mi17929\Documents\1.Dev\MiscProj\quasar-project\src\boot\firebase.js
