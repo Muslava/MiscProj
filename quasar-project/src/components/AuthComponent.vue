@@ -70,7 +70,7 @@ export default {
         .then(result => {
           console.log('result', result)
           this.$q.notify({message: 'Sign In Success.'})
-          this.$router.push('/home')
+          this.$router.push('/homepage')
         })
         .catch(error => console.log('error',error))
     },
@@ -78,7 +78,7 @@ export default {
       signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           this.$q.notify({message: 'Sign In Success.'})
-          this.$router.push('/home')
+          this.$router.push('/homepage')
         })
         .catch(error => { console.log(error)})
     },
@@ -86,7 +86,7 @@ export default {
       createUserWithEmailAndPassword(auth, email, password)
         .then(auth => {
           this.$q.notify({message: 'Sign In Success.'})
-          this.$router.push('/home')
+          this.$router.push('/homepage')
         })
         .catch(error => {console.log(error)
         })
